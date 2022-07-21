@@ -72,7 +72,6 @@
 				7E484C7328895C4800E30D82 /* ViewModels */,
 				7E484C7228895C4000E30D82 /* Views */,
 				7E484C7128895C2F00E30D82 /* Models */,
-				7E484C7028895C1B00E30D82 /* DownloadingImages */,
 				7E484C6628895C0B00E30D82 /* Assets.xcassets */,
 				7E484C6828895C0B00E30D82 /* Preview Content */,
 			);
@@ -85,13 +84,6 @@
 				7E484C6928895C0B00E30D82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7E484C7028895C1B00E30D82 /* DownloadingImages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DownloadingImages;
 			sourceTree = "<group>";
 		};
 		7E484C7128895C2F00E30D82 /* Models */ = {
