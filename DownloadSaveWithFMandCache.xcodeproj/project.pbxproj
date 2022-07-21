@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		7E484C6328895C0900E30D82 /* DownloadSaveWithFMandCacheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C6228895C0900E30D82 /* DownloadSaveWithFMandCacheApp.swift */; };
-		7E484C6528895C0900E30D82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C6428895C0900E30D82 /* ContentView.swift */; };
+		7E484C6528895C0900E30D82 /* DownloadImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C6428895C0900E30D82 /* DownloadImages.swift */; };
 		7E484C6728895C0B00E30D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E484C6628895C0B00E30D82 /* Assets.xcassets */; };
 		7E484C6A28895C0B00E30D82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E484C6928895C0B00E30D82 /* Preview Assets.xcassets */; };
+		7E484C7628895EB000E30D82 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C7528895EB000E30D82 /* PhotoModel.swift */; };
+		7E484C7828895F4600E30D82 /* DownloadImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C7728895F4600E30D82 /* DownloadImagesViewModel.swift */; };
+		7E484C7A2889602A00E30D82 /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C792889602A00E30D82 /* PhotoModelDataService.swift */; };
+		7E484C7C28896BDF00E30D82 /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C7B28896BDF00E30D82 /* DownloadingImagesRow.swift */; };
+		7E484C7E28896CCF00E30D82 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C7D28896CCF00E30D82 /* DownloadingImageView.swift */; };
+		7E484C8028896DFD00E30D82 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C7F28896DFD00E30D82 /* ImageLoadingViewModel.swift */; };
+		7E484C822889796F00E30D82 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C812889796F00E30D82 /* PhotoModelCacheManager.swift */; };
+		7E484C8428897AB100E30D82 /* PhotoModelFilerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E484C8328897AB100E30D82 /* PhotoModelFilerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E484C5F28895C0900E30D82 /* DownloadSaveWithFMandCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadSaveWithFMandCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E484C6228895C0900E30D82 /* DownloadSaveWithFMandCacheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSaveWithFMandCacheApp.swift; sourceTree = "<group>"; };
-		7E484C6428895C0900E30D82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E484C6428895C0900E30D82 /* DownloadImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImages.swift; sourceTree = "<group>"; };
 		7E484C6628895C0B00E30D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E484C6928895C0B00E30D82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E484C7528895EB000E30D82 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		7E484C7728895F4600E30D82 /* DownloadImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImagesViewModel.swift; sourceTree = "<group>"; };
+		7E484C792889602A00E30D82 /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
+		7E484C7B28896BDF00E30D82 /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		7E484C7D28896CCF00E30D82 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		7E484C7F28896DFD00E30D82 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		7E484C812889796F00E30D82 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		7E484C8328897AB100E30D82 /* PhotoModelFilerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFilerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				7E484C6228895C0900E30D82 /* DownloadSaveWithFMandCacheApp.swift */,
-				7E484C6428895C0900E30D82 /* ContentView.swift */,
+				7E484C7428895C5200E30D82 /* Utilites */,
+				7E484C7328895C4800E30D82 /* ViewModels */,
+				7E484C7228895C4000E30D82 /* Views */,
+				7E484C7128895C2F00E30D82 /* Models */,
+				7E484C7028895C1B00E30D82 /* DownloadingImages */,
 				7E484C6628895C0B00E30D82 /* Assets.xcassets */,
 				7E484C6828895C0B00E30D82 /* Preview Content */,
 			);
@@ -65,6 +85,50 @@
 				7E484C6928895C0B00E30D82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E484C7028895C1B00E30D82 /* DownloadingImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DownloadingImages;
+			sourceTree = "<group>";
+		};
+		7E484C7128895C2F00E30D82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E484C7528895EB000E30D82 /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E484C7228895C4000E30D82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E484C6428895C0900E30D82 /* DownloadImages.swift */,
+				7E484C7B28896BDF00E30D82 /* DownloadingImagesRow.swift */,
+				7E484C7D28896CCF00E30D82 /* DownloadingImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E484C7328895C4800E30D82 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7E484C7728895F4600E30D82 /* DownloadImagesViewModel.swift */,
+				7E484C7F28896DFD00E30D82 /* ImageLoadingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7E484C7428895C5200E30D82 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				7E484C792889602A00E30D82 /* PhotoModelDataService.swift */,
+				7E484C812889796F00E30D82 /* PhotoModelCacheManager.swift */,
+				7E484C8328897AB100E30D82 /* PhotoModelFilerManager.swift */,
+			);
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E484C6528895C0900E30D82 /* ContentView.swift in Sources */,
+				7E484C7628895EB000E30D82 /* PhotoModel.swift in Sources */,
+				7E484C7E28896CCF00E30D82 /* DownloadingImageView.swift in Sources */,
+				7E484C7A2889602A00E30D82 /* PhotoModelDataService.swift in Sources */,
+				7E484C8028896DFD00E30D82 /* ImageLoadingViewModel.swift in Sources */,
+				7E484C6528895C0900E30D82 /* DownloadImages.swift in Sources */,
+				7E484C7828895F4600E30D82 /* DownloadImagesViewModel.swift in Sources */,
 				7E484C6328895C0900E30D82 /* DownloadSaveWithFMandCacheApp.swift in Sources */,
+				7E484C8428897AB100E30D82 /* PhotoModelFilerManager.swift in Sources */,
+				7E484C822889796F00E30D82 /* PhotoModelCacheManager.swift in Sources */,
+				7E484C7C28896BDF00E30D82 /* DownloadingImagesRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

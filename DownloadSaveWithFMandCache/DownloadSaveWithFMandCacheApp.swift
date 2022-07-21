@@ -11,7 +11,7 @@ import SwiftUI
 struct DownloadSaveWithFMandCacheApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DownloadImages()
         }
     }
 }
